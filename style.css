@@ -25,30 +25,22 @@ h1{
     margin-bottom: 40px;
 }
 
-/* cards del team */
-.card-container::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
+/*cards*/
 .card{
     height: 90px;
-    width: calc((100% / 3) - 70px);
+    width: calc(100% / 3 - 70px);
     margin: 20px 35px;
-    line-height: 23px;
     float: left;
-    background-color: rgb(15, 14, 23);
 }
-
-/*gestione elementi delle cards*/
 
 .contenuto{
     height: 100%;
-    width: 100%;
+    line-height: 23px;
+    background-color: rgb(15, 14, 23);
     box-shadow: 2px 2px 2px #333333;
 }
 
+/*gestione elementi delle cards*/
 
 .contenuto img{
     height: 100%;
