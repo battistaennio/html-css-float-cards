@@ -9,16 +9,36 @@ body{
 }
 
 #container{
-    margin: 25px 10%;
+    width: 90%;
+    margin: 25px auto;
 }
 
 /* titolo + descrizione */
 
 header{
     text-align: center;
+    margin-bottom: 50px;
 }
 
 h1{
     color: red;
     margin-bottom: 40px;
+}
+
+/* cards del team */
+.card-container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card{
+    height: 70px;
+    width: calc((100% / 3) - 20px);
+    margin: 10px 10px;
+    float: left;
+
+    /*debug*/
+    background-color: blueviolet;
+    border: 4px solid black;
 }
