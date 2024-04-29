@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: "Fredoka", sans-serif;
+}
+
+#container{
+    margin: 25px 10%;
+}
+
+/* titolo + descrizione */
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: red;
+    margin-bottom: 40px;
+}
