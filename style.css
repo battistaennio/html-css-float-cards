@@ -9,7 +9,7 @@ body{
 }
 
 #container{
-    width: 90%;
+    width: 85%;
     margin: 25px auto;
 }
 
@@ -34,17 +34,18 @@ h1{
 
 .card{
     height: 90px;
-    width: calc((100% / 3) - 100px);
-    margin: 20px 50px;
+    width: calc((100% / 3) - 70px);
+    margin: 20px 35px;
     line-height: 23px;
     float: left;
     background-color: rgb(15, 14, 23);
 }
 
+/*gestione elementi delle cards*/
+
 .contenuto{
     height: 100%;
     width: 100%;
-    float: left;
     box-shadow: 2px 2px 2px #333333;
 }
 
@@ -64,5 +65,3 @@ h1{
     color: rgb(93, 189, 253);
     cursor: pointer;
 }
-
-
