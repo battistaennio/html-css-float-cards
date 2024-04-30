@@ -49,11 +49,15 @@ h1{
 
 .dati-dipendente{
     float: left;
-    margin: 10px 20px;
+    padding: 10px 20px;
     color: white;
+}
+
+.ruolo{
+    display: block;
 }
 
 .email{
     color: rgb(93, 189, 253);
-    cursor: pointer;
+    text-decoration: none;
 }
